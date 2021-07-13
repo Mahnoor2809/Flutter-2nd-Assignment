@@ -1,0 +1,48 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+HttpException: HttpException: Connection closed before full header was received, uri = http://localhost:55087/json
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 2.2.3, on Microsoft Windows [Version 10.0.19043.1083], locale en-US)
+    • Flutter version 2.2.3 at C:\flutter
+    • Framework revision f4abaa0735 (10 days ago), 2021-07-01 12:46:11 -0700
+    • Engine revision 241c87ad80
+    • Dart version 2.13.4
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    • Android SDK at C:\Users\Hp\AppData\Local\Android\Sdk
+    • Platform android-30, build-tools 30.0.3
+    • ANDROID_HOME = C:\Users\Hp\AppData\Local\Android\Sdk
+    • Java binary at: C:\Program Files\jdk-16.0.1\bin\java.exe
+    • Java version Java(TM) SE Runtime Environment (build 16.0.1+9-24)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/docs/get-started/install/windows#android-setup for detailed instructions).
+
+[✓] VS Code (version 1.57.1)
+    • VS Code at C:\Users\Hp\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.24.0
+
+[✓] Connected device (2 available)
+    • Chrome (web) • chrome • web-javascript • Google Chrome 91.0.4472.124
+    • Edge (web)   • edge   • web-javascript • Microsoft Edge 91.0.864.67
+
+! Doctor found issues in 1 category.
+```
